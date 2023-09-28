@@ -1,13 +1,13 @@
-# Metrics-webapp,
-Metrics webapp, 
-This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that we will create making use of React and Redux.
+# morse-code-decoder,
+Morse code decoder. 
+This is a project that is able to decode any Morse Code message into English understandable sentnce.
 
 <a name="readme-top"> </a>
 
 <div align="center">
 
 
-  <h3><b>Metrics webapp</b></h3>
+  <h3><b>Morse Code decoder</b></h3>
 
 </div>
 
@@ -37,26 +37,14 @@ This React capstone project is about building a mobile web application to check 
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Metrics-webapp] <a name="about-project"></a>
+# 📖 [Morse-code-decoder] <a name="about-project"></a>
 
-> API that provides numeric data about a topic that i like and then build the webapp around it. The webapp will have several pages:
-
-one page with a list of items that could be filtered by some parameters; in the example below, it's a list of metrics that can be filtered by the country (imagine a search field to introduce the country name like Italy, Croatia, etc.). This page should be your homepage.
-one page for the item details; in the example, the detail page for Czech Republic cities with number of views.
-
+> In this project. You are able to write any Morse Code message and get a decoded English message.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
- React.js, Node.js, Reduxt.js, CSS
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
+ Ruby
 
 <!-- Features -->
 
@@ -64,8 +52,7 @@ one page for the item details; in the example, the detail page for Czech Republi
 
 > Key features of this application.
 
-- **[Retrive list of countries]**
-- **[Get weather data based on the selected country]**
+- **[Decode Morse Code Messages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,69 +60,66 @@ one page for the item details; in the example, the detail page for Czech Republi
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://metrics-app-wxkvds.onrender.com/)
-- [watch documentation](https://www.loom.com/share/a1c1dd03a8444db09d2b938b46f66702?sid=9f600023-dad5-4cc7-9ec1-a7ac1f81dadd)
+- Coming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
+# Getting Started
 
-To get a local copy up and running, follow these steps.
+Welcome to Morse Code Decoder! Follow these steps to get your project up and running.
+
+## Setup
 
 ### Prerequisites
 
-In order to run this project you need these, incase they are not already setup, Kindly Read [Prerequisites](./Prerequisites.md).
+Before you begin, ensure you have met the following requirements:
 
-### Setup
+- Ruby: [Download and install Ruby](https://www.ruby-lang.org/en/documentation/installation/).
 
-Clone this repository to your desired folder:
-```sh
-  mkdir my-folder
-  cd my-folder
-  git clone git@github.com:SSEKPIUS/Microverse-React-Template--quick.git 
-```
+## Install
 
-### Install
+1. Clone the repository:
 
-Install this project with:
-```sh
-  npm install -force
-```
+   ```bash
+   git clone https://github.com/your-username/your-project.git
+   cd your-project
 
-### Usage
+2. Install dependencies using Bundler:
+   ```bash
 
-To run the project, execute the following command:
+     gem install bundler # If you haven't installed Bundler already
+     bundle install
 
-Example command:
+## Usage
 
-```sh
-  npm run start
-```
+Now that you have installed the project and its dependencies, you can start using it:
 
-### Run tests
-
-To run tests, run the following command:
-
-Example command:
-
-```sh
-  npm test
-```
-
-### Deployment
-
-You can deploy this project using:
-
-Github Pages
+    ruby index.rb
 
 
+## Run Tests
+
+To run the project's tests, use the following command:
+
+rspec
+
+## Deployment
+
+For deployment, you can use GitHub pages.
+    
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
+
+👤 **Karim Barragan**
+
+- GitHub: [@Karim Barragan](https://github.com/Rebelzob)
+- LinkedIn: [@Karim Barragan](https://www.linkedin.com/in/karim-barragan/)
+
 
 ### 👤 **Mohamed-Gamaleldin**
 
@@ -150,7 +134,7 @@ Github Pages
 
 >features i will add to the project.
 
-- [ ] **[weather for cities]**
+- [ ] **[Front end website]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,7 +163,6 @@ If you like this project, subscribe to my [Youtube Channel](https://www.youtube.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 👤 **Original Design 1**
-- Original design idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) on Behance.
 
 - I would like to thank microverse student team for the resorces availed.
 
@@ -189,14 +172,10 @@ If you like this project, subscribe to my [Youtube Channel](https://www.youtube.
 
 ## ❓ FAQ <a name="faq"></a>
 
-- **What is front-end, HTML, CSS and JavaScript**
-  - The front end refers to the parts of the application that users (also known as "clients") interact with directly
-  - As a front-end dev, you'll implement these tasks primarily using HTML to define the structure of web pages, CSS to add styling, and JavaScript to add interactivity.
+- **What is ruby?**
 
-- **What is back-end and Full stack**
-  - The back end refers to the parts of the application that run behind the scenes and aren't presented directly to the user/client.
-  - The back end typically includes a web server which handles HTTP connections received from the front-end client (usually a web browser)
-  - Full stack simply includes both the front end AND back end!
+Ruby is a dynamic, high-level programming language known for its simplicity and productivity. It is often used for web development (Ruby on Rails), scripting, and building software applications. Ruby emphasizes readability and developer happiness through elegant and concise code. It is an interpreted language with a strong focus on object-oriented programming and has a rich ecosystem of libraries and gems for various purposes.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
